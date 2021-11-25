@@ -1,0 +1,403 @@
+html{
+  overflow-y: scroll;
+}
+body{
+    margin: 0px;
+  }
+
+header{
+      height: 97px;
+      width: 100%;
+      background-color: #ECF2F8;
+}
+
+#first-block{
+    height: 530px;
+    width: 100%;
+    background-image: url("../images/top.png");
+    background-size: 100%;
+    padding-top: 277px;
+    padding-left: 50px;
+}
+h1{
+  font-size: 80px;
+  font-family: sans-serif;
+  color: rgba(39, 41, 43, 0.973);
+  height: 100px;
+  line-height: 88px;
+}
+#second-block{
+  height: 1000px;
+  width: 100%;
+  background-color: #ffff;
+  text-align: center;
+}
+
+#second-block .download button{
+  margin-top: 50px;
+  background-color: #4D88AA;
+  width: 40%;
+  height: 50px;
+  color: #ffff;
+}
+
+#second-block .about-container h1{
+  margin-top: 120px;
+  color: #275B78;
+}
+
+#second-block .about-container p{
+  font-size: 30px;
+  color: #275B78;
+}
+
+#second-block .about-container .sec p{
+  font-size: 20px;
+}
+
+#second-block .about-container .sec{
+  margin-top: 60px;
+}
+
+#second-block .about-container .sec button{
+  background-color: #4D88AA;
+  width: 20%;
+  height: 30px;
+  color: #ffff;
+}
+
+
+
+.editorial {
+  display: block;
+  width: 100%;
+  height: 60px;
+  max-height: 60px;
+  margin: 0;
+  z-index:5;
+  bottom:0;
+  position:relative;
+  top:-59px;
+  left:0px;
+  float:left;
+}
+
+.parallax1 > use {
+  animation: move-forever1 10s linear infinite;
+  
+}
+.parallax2 > use {
+  animation: move-forever2 8s linear infinite;
+  
+}
+.parallax3 > use {
+  animation: move-forever3 6s linear infinite;
+  
+}
+.parallax4 > use {
+  animation: move-forever4 4s linear infinite;
+  
+}
+@keyframes move-forever1 {
+  0% {
+    transform: translate(85px, 0%);
+  }
+  100% {
+    transform: translate(-90px, 0%);
+  }
+}
+@keyframes move-forever2 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+@keyframes move-forever3 {
+  0% {
+    transform: translate(85px, 0%);
+  }
+  100% {
+    transform: translate(-90px, 0%);
+  }
+}
+@keyframes move-forever4 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+
+#secound2-block{
+  height: 1000px;
+  width: 100%;
+  background-color: #C3CFD9;
+}
+
+.absolute_kakomu{
+  height : 1000px;
+  width : 900px;
+}
+.first-block{
+  height: 550px;
+  width: 100%;
+  background-size: 100%;
+}
+
+
+
+.first_position_relative{
+  position: absolute;
+  width: 168px;
+  height: 300px;
+  left: 400px;
+  top: 1982px;
+  background: #C4C4C4;
+  border-radius: 30px;
+  background-image: url("../images/画像1.png");
+  background-size: cover;
+}
+
+.secound_position_relative{
+  position: absolute;
+    width: 168px;
+    height: 168px;
+    left: 164px;
+    top: 2040px;
+    background: #C4C4C4;
+    border-radius: 30px;
+    background-image: url("../images/画像2.png");
+    background-size: cover;
+}
+
+.third_position_relative{
+  position: absolute;
+    width: 82px;
+    height: 148px;
+    left: 489px;
+    top: 2311px;
+    background: #C4C4C4;
+    border-radius: 30px;
+    background-image: url("../images/画像3.png");
+    background-size: cover;
+
+}
+
+.fourth_position_relative{
+  position: absolute;
+    width: 142px;
+    height: 250px;
+    left: 645px;
+    top: 2067px;
+    background: #C4C4C4;
+    border-radius: 30px;
+    background-image: url("../images/画像4.png");
+    background-size: cover;
+}
+
+.fifth_position_relative{
+  position: absolute;
+  width: 143px;
+  height: 142px;
+  left: 256px;
+  top: 2150px;
+  background: #C4C4C4;
+  border-radius: 30px;
+  background-image: url("../images/画像5.png");
+  background-size: cover;
+}
+
+.sixth_position_relative{
+  position: absolute;
+    width: 142px;
+    height: 142px;
+    left: 460px;
+    top: 2300px;
+    background: #C4C4C4;
+    border-radius: 30px;
+    background-image: url("../images/画像6.png");
+    background-size: cover;
+}
+
+.seventh_position_relative{
+  position: absolute;
+    width: 142px;
+    height: 152px;
+    left: 679px;
+    top: 2200px;
+    background: #C4C4C4;
+    border-radius: 30px;
+    background-image: url("../images/画像7.png");
+    background-size: cover;
+
+} 
+
+.textbox{
+  width: 450px;
+  height: 300px;
+  position: relative;
+  left: 900px;
+  top: 256px;
+  background: #ffffff;
+  border-radius: 30px;
+  padding:50px
+  }
+
+  .textbox h1{
+    font-size: 30px;
+    color:#275b78;
+    line-height: 65px;
+  }
+
+  .textbox p{
+    font-size: 20px;
+  }
+
+#third-block{
+  height: 223px;
+  width: 100%;
+  padding-top: 35px;
+  padding-left: 234px;
+  background-color: #4B88AA
+}
+.myFont{
+  font-size: 80px;
+  font-family: sans-serif;
+  color:white;
+}
+#fourth-block{
+  height: 2100px;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color:white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.image1{
+  height: 500px;
+  width: 500px;
+  padding-left: 50px;
+  padding-top:50px ;
+
+}
+.image2{
+  height: 500px;
+  width: 500px;
+  padding-left: 50px;
+  padding-top:50px ;
+}
+.image3{
+  height: 500px;
+  width: 500px;
+  padding-left: 50px;
+  padding-top:50px ;
+
+}
+
+.fourth-font1{
+  font-size: 40px;
+  font-family: sans-serif;
+  color:#8d9aa1;
+  
+}
+.fourth-font2{
+  font-size: 20px;
+  font-family: sans-serif;
+  color:black;
+  
+}
+.tategaki1{
+  font-size: 40px;
+  font-family: sans-serif;
+  writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  position: relative;
+  top:-21px;
+  left: -1129px;
+}
+
+.tategaki2{
+  font-size: 40px;
+  font-family: sans-serif;
+  writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  position: relative;
+  top:685px;
+  left: -90px;
+}
+
+.tategaki3{
+  font-size: 40px;
+  font-family: sans-serif;
+  writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  position: relative;
+  top:1380px;
+  left: -1238px;
+}
+
+#fifth-block{
+  height: 500px;
+  background-color:#C3CFD9;
+  font-size: 20px;
+  font-family: sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+.grayzone{
+  height: 155px;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 250px;
+  margin-left: 400px;
+  margin-right: 400px;
+  background-color:white;
+  font-size: 40px;
+  font-family: sans-serif;
+  text-align: center;
+  color:#4B88AA;
+}
+.p{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right:50px ;
+}
+.iPhone{
+  margin-left:295px;
+  margin-top: -215px;
+  text-align: center;
+}
+.image4{
+  height: 100px;
+  width: 100%;
+}
+.Andoroid{
+  margin-left:226px;
+  margin-top: -213px;
+  text-align: center;
+}
+.bluezone{
+  height: 100px;
+  width: 100%;
+  background-color:#4B88AA;
+}
+
+.image-icon{
+  width: 30px;
+  height: 30px;
+}
+
+
+
+
+  
+
+
+  
